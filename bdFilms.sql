@@ -499,8 +499,9 @@ INSERT INTO Utilisateur (nom, prenom, pseudo, email, motDePasse, estAdmin) VALUE
 ('Gaétan', 'Simonet', 'IKIANA', 'gsimonet63.pro@gmail.com', '	', true),
 ('Kilian', 'Montagné', 'Kilian', 'user1@mail.com', 'MotDePasse', true),
 ('Dorian', 'Schneider', 'Dorian', 'user2@mail.com', 'MotDePasse', true),
-('Hamza', 'Louza', 'Hamza', 'user4@mail.com', 'MotDePasse', true);
-
+('Hamza', 'Louza', 'Hamza', 'user4@mail.com', 'MotDePasse', true)
+('Admin', 'Admin', 'admin', 'admin@admin.fr', 'admin', '1');
+	
 INSERT INTO Watchlist(idUtilisateur, idFilm, dateAjout) VALUES 
 (1, 1, CURDATE()),
 (1, 2, CURDATE()),
